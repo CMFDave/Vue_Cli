@@ -1,6 +1,13 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <!-- vue logo -->
+    <img src="./assets/logo.png" id="logo">
+    <!-- 導覽列 -->
+    <nav>
+      <router-link to="/">首頁</router-link>
+      <router-link to="/down">連結二</router-link>
+    </nav>
+    <!-- 路由匹配到的组件將會渲染在這 -->
     <router-view/>
   </div>
 </template>
@@ -19,5 +26,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+#logo{
+  max-width: 60px;
 }
 </style>
