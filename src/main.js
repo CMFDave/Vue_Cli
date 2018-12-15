@@ -5,7 +5,10 @@ import App from './App'
 import router from './router'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.css'
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
 
+Vue.use(ElementUI)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

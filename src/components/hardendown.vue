@@ -1,6 +1,6 @@
 <!-- HardenDown.vue -->
 
-<template>  
+<template>
   <div class="hello">
     <img src="../assets/harden.jpg">
     <h1>{{ msg }}</h1>
@@ -12,7 +12,7 @@ export default {
   name: 'HardenDown',
   data () {
     return {
-      msg: '這是連結二，所以 Harden 躺著'
+      msg: '這是首頁，所以 Harden 不動'
     }
   }
 }
@@ -20,7 +20,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .hello img {
-    transform: perspective(600px) rotateX(80deg);
-  }
+.hello img {
+  transform: perspective(600px) rotateX(80deg);
+}
 </style>
